@@ -45,3 +45,5 @@ public class EmpleadoService {
     System.out.println("No se encontraron empleados " +  busqueda);
   }
 }
+
+//Metodos para acceder a Empleado

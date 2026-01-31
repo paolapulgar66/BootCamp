@@ -62,3 +62,4 @@ public class Empleado extends Persona{
     }
   }
 }
+//clse que hereda de persona

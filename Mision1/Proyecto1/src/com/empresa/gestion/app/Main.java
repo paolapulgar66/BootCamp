@@ -25,3 +25,4 @@ public class Main {
     nomina.simularPagos(8);
   }
 }
+//Prueba mandando los datos desde el main

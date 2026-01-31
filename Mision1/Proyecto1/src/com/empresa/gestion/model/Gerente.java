@@ -35,3 +35,6 @@ public class Gerente extends Empleado{
     return salario + bono;
   }
 }
+
+
+//Clase que subherda de persona

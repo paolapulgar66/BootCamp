@@ -1,7 +1,6 @@
 package com.empresa.gestion.app;
 import com.empresa.gestion.model.Empleado;
 import com.empresa.gestion.service.EmpleadoService;
-
 import java.util.Scanner;
 
 public class Main2 {
@@ -71,3 +70,4 @@ public class Main2 {
     scanner.close();
   }
 }
+//Prueba de escirtorio con la clase scanner

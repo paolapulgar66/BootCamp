@@ -50,3 +50,4 @@ public class Persona {
     return id;
   }
 }
+//Clase abstracta

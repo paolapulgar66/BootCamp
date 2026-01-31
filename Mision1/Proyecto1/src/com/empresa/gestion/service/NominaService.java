@@ -28,3 +28,4 @@ public class NominaService {
   }
 
 }
+//Para acceder a gerente
