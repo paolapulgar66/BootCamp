@@ -14,14 +14,15 @@ import { ChangeDetectorRef } from '@angular/core';
 })
 export class UserComponent {
 
-  users: any[] = [];
-  constructor(private userServi: UserService, private cdt: ChangeDetectorRef) {
-    this.userServi.getUsers().subscribe(data => {
-      this.users = data;
-      console.log(this.users);
-      this.cdt.detectChanges(); // Llamando al detector para rfrescar los cambios 
+users: any[] = [];
+constructor(private userServi: UserService, private cdt: ChangeDetectorRef) {
+this.userServi.getUsers().subscribe(data => {
+this.users = data;
+console.log(this.users);
+this.cdt.detectChanges(); 
+// Llamando al detector para rfrescar los cambios
 
-    })
-  }
+});
+};
 
 }
